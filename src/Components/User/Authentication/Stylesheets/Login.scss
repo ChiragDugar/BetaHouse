@@ -1,0 +1,236 @@
+.Login-main-div{
+    display: flex;
+    height: 100vh;
+    padding: 0 !important;
+}
+
+.Login-main-inner1{
+    // display: flex;
+    // flex: 1;
+    width: 100%;
+    background-image: url('../../../../Assets/LoginImage.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Login-main-inner2{
+    // display: flex;
+    // flex: 1;
+    background-color: white;
+    // flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.Login-text1{
+    font-size: 1.5rem;
+    color: #2D2D2D;
+    letter-spacing: 1.8;
+}
+
+.Login-input{
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    width: 21.8125rem;
+    height: 2.25rem;
+    margin: 0.75rem;
+    border: none !important;
+    padding: 1rem;
+    // font-style: italic;
+}
+input:focus {
+    outline: none;
+}
+.Login-button{
+    font-size: 1.125rem;
+    background-color: #2D2D2D;
+    border: none !important;
+    color: white;
+    height: 2.25rem;
+    width: 6.0625rem;
+    letter-spacing: 1.35;
+    margin-top: 1.125rem;
+    margin-left: 100px;
+}
+
+.Login-text2{
+    font-size: 0.9375rem;
+    color: #2D2D2D;
+    text-decoration: underline;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1.13;
+}
+
+.Login-text3{
+    font-size: 0.9375rem;
+    color: #2D2D2D;
+    letter-spacing: 1.13;
+}
+
+.Login-signup-button{
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+
+/* Shared */
+.loginBtn {
+    box-sizing: border-box;
+    position: relative;
+    /* width: 13em;  - apply for fixed size */
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+    width: 18rem;
+  }
+  .loginBtn:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+  }
+  .loginBtn:focus {
+    outline: none;
+  }
+  .loginBtn:active {
+    box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+  }
+  
+  
+  // /* Facebook */
+  .loginBtn--facebook {
+    background-color: #4C69BA;
+    background-image: linear-gradient(#4C69BA, #3B55A0);
+    /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-shadow: 0 -1px 0 #354C8C;
+    margin-top: 3rem;
+  }
+  .loginBtn--facebook:before {
+    border-right: #364e92 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+    // background: url('https://www.lentzseptic.com/wp-content/uploads/2018/10/fb-icon-1024x1024.png') 6px 6px no-repeat;
+  }
+  .loginBtn--facebook:hover,
+  .loginBtn--facebook:focus {
+    background-color: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+  }
+  
+  
+  /* Google */
+  .loginBtn--google {
+    /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+    background: #DD4B39;
+  }
+  .loginBtn--google:before {
+    border-right: #BB3F30 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png') 6px 6px no-repeat;
+  }
+  .loginBtn--google:hover,
+  .loginBtn--google:focus {
+    background: #E74B37;
+  }
+  .Login-Dash{
+    padding: 0rem !important;
+  }
+
+  /*NEW CSS*/
+.Login-main {
+  display: flex;
+  height: calc(110vh - 100px);
+}
+
+.Login-main-left {
+  display: flex;
+  flex: 1;
+}
+
+.Login-main-left-image {
+  width: 100%;
+  // height: 100%;
+  transform: translateX(-16.1px);
+}
+
+@media screen and (max-width: 600px) {
+
+  .Login-main-left {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.Login-main-right {
+  flex: 1;
+  // margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Login-main-input {
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    // opacity: 1;
+    // color: #7F757C;
+    // font-weight: bold;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    padding-top: 12px;
+    font-family: "Raleway";
+    // font-style: italic;
+    border: 0rem;
+    width: 25rem;
+    font-size: 14px;
+    height: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.Login-main-button {
+  display: flex;
+  margin-top: 2rem;
+}
+.Login-main-btn-display{
+  font-size: medium;
+  background: #2D2D2D;
+  letter-spacing: 1.35px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Crimson Text";
+  width: 10rem;
+  height: 3rem;
+  padding: 0;
+  border: none;
+}
+.Login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.Login-create-account {
+  display: flex;
+  align-items: center;
+
+}
+.Login-forget-password {
+  display: flex;
+  align-items: center;
+}
+.F-hover:hover{
+  color: red;
+}

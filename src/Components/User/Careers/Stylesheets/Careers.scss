@@ -1,0 +1,21 @@
+a{
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .Careers-head-div{
+        flex-direction: column-reverse !important;
+    }
+
+    .Careers-heading{
+        margin-top: 2rem !important;
+    }
+
+    .Careers-images{
+        margin-top: 2rem !important;
+    }
+
+    .Careers-main-image{
+        width: 100% !important;
+    }
+}

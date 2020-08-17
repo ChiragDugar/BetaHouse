@@ -1,0 +1,54 @@
+.AddView-heading{
+    font-family:"Raleway" ;
+    letter-spacing: 0.18rem;
+    font-weight: bolder;
+}
+
+.AddView-container{
+    height: 80vh;
+}
+
+.AddView-btn{
+    background-color: #2D2D2D;
+    letter-spacing: 1.35px;
+    color: #FFFFFF;
+    font-family: "Crimson Text";
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border: none;
+    transition: all 0.3s ease-in;
+    width: 100%;
+}
+.AddView-right-contaniner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin: auto;
+}
+.AddView-subContainer1{
+    background-color: rgba(255, 255, 255, 0.592);
+}
+
+
+.AddView-subContainer2{
+    // background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.8)),url('../../../../Assets/Grand-Felda-House-Wembley-London-Cinema-Room-Unilodgers@2x.png');
+    background-color: rgba(255, 255, 255, 0.592);
+}
+
+.AddView-subContainer3{
+    // background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.8)),url('../../../../Assets/Grand-Felda-House-Wembley-London-Cinema-Room-Unilodgers@2x.png');
+    background-color: rgba(255, 255, 255, 0.592);
+    // height: 29vh;
+}
+
+.AddView-btn:hover{
+    // background-color: white;
+    border: 2px solid #2D2D2D;
+    background-color: rgba(241, 238, 238, 0.592);
+    color:black;
+    box-shadow: 3px 3px 10px #2D2D2D;
+    transition: all 0.3s ease-in;
+
+}

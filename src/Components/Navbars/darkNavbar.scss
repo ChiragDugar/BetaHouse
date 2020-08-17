@@ -1,0 +1,42 @@
+.darkNavbar-row{
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    background-color: #2d2d2d;
+    height: 5.435rem;
+}
+
+
+@media screen and (max-width:720px)
+{
+    .darkNavbar-row{
+        height:7rem;
+    }
+
+    .darkNavbar-links-wrapper{
+        display: none;
+    }
+
+    .User-profile-logout-button-wrapper-phone{
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .User-profile-logout-button-phone{
+        border: none;
+        // background-color:#2d2d2d;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1.2rem;
+        font-family: 'Crimson Text';
+        letter-spacing: 0.1rem;
+        width: 90%;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        margin: 1rem;
+        padding-right: 5rem;
+        bottom: 10rem;
+        position: fixed;
+    }
+}

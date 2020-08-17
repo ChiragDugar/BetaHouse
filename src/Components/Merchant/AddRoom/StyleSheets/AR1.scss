@@ -1,0 +1,63 @@
+
+.AR1-col1{
+    width: 100%;
+    background-image: url('../../../../Assets/olexandr-ignatov-84K2c_rKQDc-unsplash.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.AR1-col2{
+    height: 100vh;
+    padding: 0px;
+}
+.AR1-p1{
+    margin-top: 53px;
+    font-family: "Crimson Text";
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: #2D2D2D;
+    opacity: 1;
+}
+.AR1-p2{
+    font-size: 20px;
+    font-family: "Crimson Text";
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #2D2D2D;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.AR1-form1{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AR1-tf{
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 507px;
+    // height: 36px;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    padding-top: 12px;
+    font-family: "Raleway";
+    // font-style: italic;
+    border: 0px;
+}
+.AR1-b1{
+    width: 97px;
+    height: 36px;
+    background: #2D2D2D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    letter-spacing: 1.35px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: "Crimson Text";
+    margin-top: 90px;
+}

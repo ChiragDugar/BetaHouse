@@ -1,0 +1,49 @@
+.Hostel-listing-card-content{
+    padding-top: 0.6rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.Hostel-listing-card-title{
+    // font-family: 'Crimson Text';
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    // letter-spacing: 0.05rem;
+    padding-right: 0rem;
+    line-height: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.Hostel-listing-card-heart-wrapper{
+    padding-left: 0rem;
+}
+
+.Hostel-listing-card-room-types{
+    font-size: 0.9rem;
+    font-family: 'Raleway';
+    // letter-spacing: 0.05rem;
+}
+
+.Hostel-listing-card-rates{
+    font-family: 'Crimson Text';
+    // text-decoration: underline;
+    font-weight: 600;
+    font-size: 1.5rem;
+    // letter-spacing: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    // color: #ff084a;
+}
+
+.Hostel-listing-card-offers{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 1rem;
+    padding-bottom: 0.25rem;
+    // line-height: 1.8rem;
+    // letter-spacing: 0.05rem;
+    color: rgba(0,0,0,0.6);
+}

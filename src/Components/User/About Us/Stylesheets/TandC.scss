@@ -1,0 +1,21 @@
+a{
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .TandC-head-div{
+        flex-direction: column-reverse !important;
+    }
+
+    .TandC-heading{
+        margin-top: 2rem !important;
+    }
+
+    .TandC-images{
+        margin-top: 2rem !important;
+    }
+
+    .TandC-main-image{
+        width: 100% !important;
+    }
+}

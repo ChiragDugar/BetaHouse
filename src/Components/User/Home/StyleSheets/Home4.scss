@@ -1,0 +1,71 @@
+.react-tabs__tab{
+    padding:0px !important;
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.react-tabs__tab-list{
+    border:none !important;
+}
+
+.react-tabs__tab--selected{
+    border: none !important;
+    text-decoration: underline !important;
+    font-weight: 500;
+}
+
+.react-tabs-2{
+    border-left: 0.08rem solid gray !important;
+    border-right: 0.08rem solid gray !important;
+    border-radius: 0rem !important;
+}
+.Home4-tab{
+    padding: 0px !important;
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    // font-weight: 500;
+    font-family: "Raleway";
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.Home4-container{
+    margin:0 7.5rem;
+    padding:0 4rem;
+}
+
+.Home4-Heading{
+    font-size: 2rem;
+    margin: 1rem;
+    margin-top: 5rem !important;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.Home4-Paragraph{
+    font-size: 1.15rem;
+    padding:2rem;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .Home4-container{
+      margin: 0px !important;
+      padding: 0px !important;
+  }
+
+  .ldTBTR{
+      right: 0px !important;
+  }
+}
+
+

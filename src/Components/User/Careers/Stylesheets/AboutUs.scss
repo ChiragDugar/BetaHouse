@@ -1,0 +1,25 @@
+a{
+    text-decoration: none !important;
+}
+.AboutUs-Img{
+    height: 32rem;
+    width: 32rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .Aboutus-head-div{
+        flex-direction: column-reverse !important;
+    }
+
+    .Aboutus-heading{
+        margin-top: 2rem !important;
+    }
+
+    .Aboutus-images{
+        margin-top: 2rem !important;
+    }
+
+    .Aboutus-Img{
+        width: 100% !important;
+    }
+}

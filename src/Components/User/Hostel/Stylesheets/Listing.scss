@@ -1,0 +1,29 @@
+.listing-page-search-bar {
+    display: flex;
+    justify-content: start;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.07rem solid rgba(#2d2d2d,0.4);
+}
+
+.listing-page-search-bar__heading {
+    font-family: "Raleway";
+    margin-left: 6rem;
+    margin-top: 2.5rem;
+    color: rgba(0,0,0,0.7);
+    font-size: 1.5rem;
+}
+
+.listing-page-search-bar__subsection {
+    // width: 0%;
+    border: 0.1rem solid rgba(0,0,0,0.5);
+    border-right: none;
+}
+
+.Listing-footer-none{
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+}

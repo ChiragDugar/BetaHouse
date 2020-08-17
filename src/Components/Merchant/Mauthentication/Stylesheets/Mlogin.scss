@@ -1,0 +1,82 @@
+.Mlogin-main-div{
+    display: flex;
+    height: 100vh;
+    padding: 0 !important;
+}
+
+.Mlogin-main-inner1{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(70, 70, 70, 0.5) , rgba(68, 68, 68, 0.5)), url('../../../../Assets/LoginImage.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .Mlogin-main-inner1 {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+.Mlogin-main-inner2{
+    display: flex;
+    flex: 1;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mlogin-text1{
+    font-size: 1.5rem;
+    color: #2D2D2D;
+    letter-spacing: 1.8;
+}
+
+.Mlogin-input{
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    width: 21.8125rem;
+    height: 2.25rem;
+    margin: 0.75rem;
+    border: none !important;
+    padding: 1rem;
+    // font-style: italic;
+}
+
+.Mlogin-button{
+    font-size: 1.125rem;
+    background-color: #2D2D2D;
+    border: none !important;
+    color: white;
+    height: 2.25rem;
+    width: 6.0625rem;
+    letter-spacing: 1.35;
+    margin-top: 1.125rem;
+}
+
+.Mlogin-text2{
+    font-size: 0.9375rem;
+    color: #2D2D2D;
+    text-decoration: underline;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1.13;
+}
+
+.Mlogin-text3{
+    font-size: 0.9375rem;
+    color: #2D2D2D;
+    letter-spacing: 1.13;
+}
+
+.Mlogin-signup-button{
+    text-decoration: underline !important;
+}

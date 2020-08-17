@@ -1,0 +1,69 @@
+{
+  "name": "beta-house-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "awsec2-deploy": "ssh -i betahousebackend.pem ubuntu@13.127.112.205",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "file-saver": "^2.0.2",
+    "google-maps-react": "^2.0.2",
+    "jquery": "^3.4.1",
+    "mapbox-gl": "^1.10.0",
+    "moment": "^2.24.0",
+    "moment-range": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "range": "0.0.3",
+    "react": "^16.12.0",
+    "react-accessible-accordion": "^3.0.1",
+    "react-autosuggest": "^10.0.0",
+    "react-date-picker": "^8.0.1",
+    "react-daterange-picker": "^2.0.1",
+    "react-dom": "^16.12.0",
+    "react-dropdown-select": "^4.1.1",
+    "react-hamburger-menu": "^1.1.1",
+    "react-image-gallery": "^1.0.7",
+    "react-items-carousel": "^2.8.0",
+    "react-light-accordion": "^0.1.4",
+    "react-linechart": "^1.1.12",
+    "react-loader-spinner": "^3.1.5",
+    "react-mapbox-autocomplete": "^0.2.3",
+    "react-mapbox-gl": "^4.8.3",
+    "react-modal": "^3.11.2",
+    "react-modern-datepicker": "^1.1.0",
+    "react-paginating": "^1.4.0",
+    "react-preloaders": "^3.0.3",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-share": "^4.1.0",
+    "react-switch": "^5.0.1",
+    "react-tabs": "^3.1.0",
+    "react-typing-effect": "^2.0.3",
+    "source-map-explorer": "^2.4.2"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

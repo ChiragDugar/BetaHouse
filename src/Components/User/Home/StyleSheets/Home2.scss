@@ -1,0 +1,59 @@
+.Home2-heading-container{
+    // background-color: rgba(255,255,255,0.2);
+    opacity: 0.95;
+    backdrop-filter: blur(8px);
+    width: 80%;
+}
+.Home2-heading{
+    // z-index:2
+    font-size: 2.1rem;
+    letter-spacing: 2.4px;
+}
+
+.Home2-container{
+    background-image: url('../../../../Assets/henning-witzel-ukvgqriuOgo-unsplash.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.Home2-subcontainer{
+    // position: relative;
+    // top: 2rem;
+    padding-top: 0.75rem;
+    opacity: 0.95;
+    backdrop-filter: blur(8px);
+    width: 80%;
+    height: 95vh;
+}
+
+.Home2-subHeading{
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Home2-heading-container{
+        width: 100% !important;
+    }
+
+    .Home2-subcontainer{
+        padding: 0px !important;
+        height: 95vh !important;
+        line-height: 1 !important;
+    }
+
+    .Home2-info{
+        padding: 0px !important;
+    }
+
+    .Home2-heading{
+        text-align: center;
+    }
+
+    .Home2-container{
+        height: 100vh !important;
+        display: flex !important;
+    }
+}

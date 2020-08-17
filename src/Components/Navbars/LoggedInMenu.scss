@@ -1,0 +1,17 @@
+.logged-in-menu {
+    transform: translateX(-10rem) translateY(4rem);
+    left: 100%;
+    position: absolute;
+    width: 10rem;
+    height: 30%;
+    background-color: pink;
+}
+
+.show-logged-in-menu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hide-logged-in-menu {
+    display: none;
+}   

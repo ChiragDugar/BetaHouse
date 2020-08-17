@@ -1,0 +1,127 @@
+.admin-autosuggest-update-uni-suggestion{
+    padding: 0rem !important;
+    margin: 0rem !important;
+    position:relative;
+}
+
+.admin-autosuggest-update-uni-suggestion-col{
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.AutosuggestUpdateUni{
+    display: flex;
+}
+
+.AutosuggestUpdateUni .react-autosuggest__container{
+    width: 100%;
+}
+
+.AutosuggestUpdateUni .react-autosuggest__input {
+    width: 100%;
+    height: 3rem;
+    // padding: 10px 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 1rem;
+    border: none;
+    background-color: #e4e4e4;
+    color: #222222;
+    // margin-bottom: 0.8rem;
+    padding-left: 0.9rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.8rem;
+    // border: 1px solid #aaa;
+    // border-radius: 4px;
+  }
+
+  .AutosuggestUpdateUni .react-autosuggest__suggestions-container {
+    display: none;
+    text-align: left;
+  }
+
+  .AutosuggestUpdateUni .react-autosuggest__suggestions-container--open {
+    display: block;
+    // position: absolute;
+    // top: 51px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #e4e4e4;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 16px;
+    // border-bottom-left-radius: 4px;
+    // border-bottom-right-radius: 4px;
+    z-index: 2;
+    overflow-y: scroll;
+    max-height: 15rem;
+  }
+  
+
+  .AutosuggestUpdateUni .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .AutosuggestUpdateUni .react-autosuggest__suggestion {
+    cursor: pointer;
+    // padding: 0.5rem 0 0.5rem 3.5rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #222222;
+    text-align: left;
+    padding: 0.8rem !important;
+    margin: 0rem !important;
+    // width: 24.9rem;
+  }
+
+  .AutosuggestUpdateUni .react-autosuggest__suggestion--highlighted {
+    // background-color: #ddd;
+    color: #2980b9;
+  }
+
+  .admin-dashboard-locality-delete-cross-update-uni{
+      color: red;
+      text-align: right;
+      position: absolute;
+      right: 1rem;
+  }
+
+  .admin-dashboard-update-uni-button{
+    width: 30%;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    background-color: #2d2d2d;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: 'Crimson Text';
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+}
+  
+.admin-dashboardone-uni-msg{
+  font-style: italic;
+  font-size: 0.85rem;
+  color: red;
+  padding-left: 1rem;
+  // font-weight: bold;
+}
+
+.admin-dashboard-add-uni-heading{
+  margin-top: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.admin-dashboard-add-uni-button-wrapper{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.admin-dashboardone-search-bar-row{
+  margin-bottom: 1rem;
+}

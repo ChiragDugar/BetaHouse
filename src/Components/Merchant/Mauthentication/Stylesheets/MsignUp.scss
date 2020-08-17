@@ -1,0 +1,104 @@
+.MsignUp-main-div{
+    display: flex;
+    height: 100vh;
+    padding: 0 !important;
+}
+
+.MsignUp-main-inner1{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-image: url('../../../../Assets/SignUpImage.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MsignUp-main-inner2{
+    display: flex;
+    flex: 1;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    text-align: center;
+}
+
+.MsignUp-text1{
+    font-size: 1.5rem;
+    color: #2D2D2D;
+    letter-spacing: 1.8;
+}
+
+.MsignUp-input{
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    width: 13.5rem;
+    height: 2.25rem;
+    margin: 0.75rem;
+    border: none !important;
+    padding: 1rem;
+    margin-bottom: 0.15rem !important;
+    // font-style: italic;
+}
+
+.MsignUp-button{
+    font-size: 1.125rem;
+    background-color: #2D2D2D;
+    border: none !important;
+    color: white;
+    height: 2.25rem;
+    width: 12.4375rem;
+    letter-spacing: 1.35;
+    margin-top: 1.125rem;
+}
+
+.MsignUp-text2{
+    font-size: 0.9375rem;
+    color: #2D2D2D;
+    text-decoration: underline;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1.13;
+}
+
+.MsignUp-text3{
+    font-size: 0.9375rem;
+    color: #2D2D2D;
+    letter-spacing: 1.13;
+}
+
+.MsignUp-signup-button{
+    text-decoration: underline !important;
+}
+
+.MsignUp-main-inner2-sub1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.MsignUp-checkbox{
+    border: 1px solid #2D2D2D !important;
+    width: 1.125rem !important;
+    height: 1.125rem !important ;
+    margin-right: 0.5rem;
+}
+
+.MsignUp-footer-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    color: #2D2D2D;
+    
+}
+
+.MsignUp-footer-text-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,125 @@
+.AP1-row1{
+    margin-right: 0rem;
+    margin-left: 0rem;
+    // width: 60%;
+}
+.AP1-col1{
+    // width: 100%;
+    // margin-top: 10px;
+    background-image: url('../../../../Assets/olexandr-ignatov-84K2c_rKQDc-unsplash.png');
+    // height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.AP1-col2{
+    height: 100vh;
+    padding: 0px;
+}
+.AP1-p1{
+    margin-top: 53px;
+    font-family: "Crimson Text";
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: #2D2D2D;
+    opacity: 1;
+}
+.AP1-p2{
+    font-size: 20px;
+    font-family: "Crimson Text";
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #2D2D2D;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.AP1-form1{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AP1-tf{
+    background: #E4E4E4;
+    opacity: 1;
+    width:60%;
+    // height: 36px;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    padding-top: 12px;
+    font-family: "Raleway";
+    // font-style: italic;
+    border: 0px;
+}
+.AP1-select{
+    background: #E4E4E4;
+    opacity: 1;
+    height: 2.5rem;
+    width: 100%;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    // padding-bottom: 9px;
+    // padding-top: 12px;
+    font-family: "Raleway";
+    // font-style: italic;
+    border: 0px;
+}
+.AP1-b1{
+    background-color: #2D2D2D;
+    letter-spacing: 1.35px;
+    color: #FFFFFF;
+    font-family: "Crimson Text";
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    border-radius: 2px;
+    transition: all 0.5s;
+}
+.AP1-b1 span{
+    background-color: #2D2D2D;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.AP1-b1:hover span{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+    padding-right: 25px;
+}
+.AP1-b1:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.AP1-subHeading{
+    font-size: 0.9rem;
+    letter-spacing:0.07rem;
+    font-family: "Crimson Text";
+    color: #2D2D2D;
+}
+.AP1-subHeading-Italics{
+    text-align: center;
+    letter-spacing: 0.5625;
+    font-style: italic;
+    font-size: 0.9rem;
+    font-family: "Raleway";
+    color: #2D2D2D;
+    text-transform: uppercase;
+}
+.AP1-featureCancel{
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+    
+}

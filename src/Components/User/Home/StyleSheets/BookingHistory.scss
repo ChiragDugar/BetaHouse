@@ -1,0 +1,24 @@
+.User-profile-footer-BH{
+    display: block;
+    z-index: 100000 !important;
+    position: absolute;
+    // bottom: 0rem;
+    width: 100%;
+}
+
+.User-profile-footer-BH-none{
+    position: fixed;
+    bottom: 0rem;
+    z-index: 100000 !important;
+    width: 100%;
+}
+
+@media screen and (max-width:768px)
+{
+    .User-profile-footer-BH-none{
+        display: none;
+    }
+    .User-profile-footer-BH{
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+.Admin-tab2-react-switch {
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+// .AdminTab2-property-header{
+//     display: flex;
+//     flex: 8;
+//     background-color: yellow;
+//     flex-direction: column;
+//     // flex-wrap: wrap;
+
+// }
+
+.AdminTab2-switch-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.AdminTab2-Accordian-item-button{
+    margin-left: 0.1rem;
+    background-color: #f4f4f4;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.AdminTab2-Accordian-item-button:hover{
+    background-color: #ddd;
+}

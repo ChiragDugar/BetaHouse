@@ -1,0 +1,185 @@
+.Hostel-listing-header-main-div{
+    padding-top :2rem;
+    padding-bottom: 2.7rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-bottom: 0.0625rem solid rgba(#2d2d2d,0.4);
+}
+
+.Hostel-listing-header-titles{
+    display: flex;
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Raleway';
+}
+
+.Hostel-listing-header-search-bar{
+    display: flex;
+    flex:1;
+    // justify-content: flex-end;
+    align-items: center;
+}
+
+.Hostel-listing-header-search-bar__row {
+    // height: 1rem;
+    border: 1px solid black;
+    height: 4.2rem;
+}
+
+.Hostel-listing-header-Button{
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2D2D;
+}
+
+.Hostel-listing-header-input{
+    width: 27rem;
+    font-family: 'Raleway';
+    // font-style: italic;
+    border: 0.0725rem solid black;
+}
+
+.Hostel-listing-header-title{
+    font-size: 2rem;
+    // font-family: 'Crimson Text';
+    font-weight: 800;
+    // text-transform: uppercase;
+}
+
+.Hostel-listing-header-title__description {
+    padding: 1rem 0.5rem 1rem 0;
+    line-height: 1.8rem;
+}
+
+.Hostel-listing-filter-wrapper{
+    padding-top :1.8rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-bottom: 0.0625rem solid rgba(#2d2d2d,0.4);
+    padding-bottom: 1.8rem;
+}
+
+.Hostel-listing-filters{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:0rem;
+    font-family: 'Raleway';
+}
+
+.Hostel-listing-filters-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+    padding:0rem;
+    font-size: 1.3rem;
+    font-family: 'Crimson Text';
+    text-transform: uppercase;
+}
+
+.Hostel-listing-filter-button{
+    background-color: white;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    outline: none;
+}
+
+.Hostel-listing-filter-button:hover {
+    border: 0.1rem solid #ff084a;
+    color: #ff084a;
+    outline: none;
+}
+
+.Hostel-listing-filter-button:focus {
+    outline: none;
+}
+
+.Hostel-listing-filter-button:clicked{
+    border: 0.0725rem solid #707070;
+    outline: none;
+}
+
+.Hostel-listing-filter-buttons-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem !important;
+}
+
+.Hostel-listing-sort-title{
+    padding:0rem;
+    font-size: 1.3rem;
+    font-family: 'Crimson Text';
+    // text-transform: uppercase;
+}
+
+.Hostel-listing-sort-content{
+    font-family: 'Raleway';
+    text-decoration: underline;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.Hostel-listing-header-cards{
+    padding-top :2rem;
+    padding-bottom: 2.7rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .Hostel-listing-header-search-bar{
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .Hostel-listing-header-main-div{
+        padding-bottom: 7rem;
+  }
+}
+
+@media (max-width: 600px) {
+    .Hostel-listing-header-search-bar{
+        margin: 1.5rem auto;
+    }
+
+    .Hostel-listing-header-main-div {
+        border: none;
+    }
+    
+    .Hostel-listing-filter-wrapper{
+        margin-top :3rem;
+        padding: 1rem 0;
+        border-top: 0.0625rem solid rgba(#2d2d2d,0.4);
+        // margin-left: auto;
+        // margin-right: auto;
+        // margin: 3rem auto;
+    }
+
+    .Hostel-listing-filter-buttons-wrapper{
+        display: inline-block;
+    }
+
+    .Hostel-listing-filters{
+        display: inline-block;
+        width: 47%;
+        margin: 3% 1.5%;
+    }
+
+    .Hostel-listing-filter-button{
+        width: 100%;
+        padding: 0.6rem 1rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 400px) {
+    .Hostel-listing-header-main-div {
+        border: none;
+        position: relative;
+        left: 1.8rem;
+    }
+}

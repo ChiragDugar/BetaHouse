@@ -1,0 +1,59 @@
+.Mhome2-container{
+    overflow: hidden;
+    // width: 100%; 
+    background-image:url('../../../../Assets/Mhomebg2.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mhome2-logo-container{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    background-image: url('../../../../Assets/BetaHouseFinalLogo-25.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 80rem 80rem;
+
+}
+
+.Mhome2-title1, .Mhome2-title2{
+    font-weight: 500;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    font-family: 'Crimson Text';
+}
+
+.Mhome2-about-container , .Mhome2-choose-container{
+    padding: 3rem;
+    padding-right: 7rem;
+    margin-right: 4rem;
+}
+
+.Mhome2-choose-container{
+    padding-top:0.8rem;
+}
+
+.Mhome2-choose-text{
+    padding:1rem ;
+}
+
+.Mhome2-choose-row1{
+    border-bottom: 0.01rem solid #707070 !important;
+}
+
+.Mhome2-choose-mid-col{
+    border-left: 0.0625rem solid #707070;
+    border-right: 0.0625rem solid #707070;
+}
+
+.Mhome2-about , .Mhome2-choose{
+    font-size:1.18rem ; 
+    font-family: 'Raleway';  
+}

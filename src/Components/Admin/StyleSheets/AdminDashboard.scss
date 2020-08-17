@@ -1,0 +1,91 @@
+.admin-dashboard-add-city-wrapper{
+    padding: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border:0.07rem solid #DDDDDD;
+    margin-top: 2rem;
+}
+
+.admin-dashboard-add-city-heading{
+    margin-bottom: 3.5rem;
+    margin-top: 0.5rem;
+}
+
+.admin-dashboard-add-loc-button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.admin-dashboard-add-loc-button{
+    border: none;
+    background-color: #2d2d2d;
+    color: whitesmoke;
+    font-family: "Crimson Text";
+    width: 90%;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.admin-dashboard-locality-display{
+    padding-left:0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-style: "Raleway";
+    font-size: 1.2rem;
+}
+
+.admin-dashboard-locality-delete-cross{
+    color: red;
+    cursor: pointer;
+}
+
+.admin-dashboard-add-city-button{
+    width: 30%;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    background-color: #2d2d2d;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: 'Crimson Text';
+    letter-spacing: 0.1rem;
+    margin-top: 1.5rem;
+}
+
+.admin-dashboard-add-uni-wrapper{
+    padding: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border:0.07rem solid #DDDDDD;
+    margin-top: 2rem;
+}
+
+.admin-dashboard-update-loc-wrapper , .admin-dashboard-del-city-wrapper{
+    padding: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border:0.07rem solid #DDDDDD;
+    margin-top: 2rem;
+    // margin-left: 1rem;
+    // margin-right: 1rem;
+}
+
+.admin-dashboard-del-city-wrapper-col{
+    padding: 0rem !important;
+}
+
+.admin-dashboard-update-feature-wrapper{
+    padding: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border:0.07rem solid #DDDDDD;
+    margin-top: 2rem;
+}
+
+// .admin-dashboard-update-loc-wrapper-row{
+//     width: 100%;
+// }

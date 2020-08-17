@@ -1,0 +1,50 @@
+.AdminTab3-amount-table{
+    width: 70%;
+    border: 0.1rem solid black;
+    margin-bottom: 2.5rem;
+}
+
+.AdminTab3-amt-table-row-head{
+    border: 0.1rem solid black;
+}
+
+.AdminTab3-amt-table-col-head , .AdminTab3-amt-table-col-body{
+    border: 0.1rem solid black;
+    padding: 0.3rem;
+}
+
+.AdminTab3-details-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.AdminTab3-table-payment-row{
+    text-align: center;
+}
+
+.AdminTab3-table-payment-button{
+    background-color: #4CAF50;
+    font-weight: bold;
+    border: none;
+    color: honeydew;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.4rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.25rem #999;
+}
+
+.AdminTab3-table-payment-button:hover{
+    background-color: #3e8e41;
+}
+
+.AdminTab3-table-payment-button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 0.1rem #666;
+    transform: translateY(4px);
+}
+
+// .Admin-Tab3-booking-cb{
+//     margin-left:2rem ;
+// }

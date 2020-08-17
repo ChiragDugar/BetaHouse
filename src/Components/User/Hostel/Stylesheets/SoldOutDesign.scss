@@ -1,0 +1,40 @@
+.each-hostel-listing-card {
+    // background-color: blue;
+    // z-index: -2;
+}
+
+.sold-out {
+    pointer-events: none;
+    opacity: 0.3;     
+    position: relative;  
+    cursor: not-allowed; 
+}
+
+
+
+
+.sold-out__main:hover::before {
+    display: block;
+    content: "SOLD OUT";
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 800;
+    z-index: 2;
+    color: #8D021F;
+}
+
+.sold-out-room__main:hover::before {
+    display: block;
+    content: "SOLD OUT";
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 800;
+    z-index: 2;
+    color: #8D021F;
+}

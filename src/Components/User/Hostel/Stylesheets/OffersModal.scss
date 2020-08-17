@@ -1,0 +1,68 @@
+.OffersModal-popup {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OffersModal-content {
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 2.5rem;
+    max-height: 75%
+}
+.OfferModal-content-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.OffersModal-content-input-field {
+    display: flex;
+    flex-direction: row;
+}
+.OfferModal-span-text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.OffersModal-offer-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    padding: 0.2rem;
+}
+.OffersModal-offer-item-coupon-code {
+    display: flex;
+    justify-content: space-between;
+}
+.OffersModal-offer-item-coupon-code-text-left {
+    font-size: 1.5rem;
+}
+.OffersModal-offer-item-coupon-code-text {
+    color: red;
+    cursor: pointer;
+}
+.OffersModal-offer-item-coupon-description-text {
+    text-transform: none;
+    letter-spacing: 0.09rem;
+    font-weight: 500;
+}
+.cross-button {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.OffersModal-offer-error-message {
+    margin-top: 0.8rem;
+    text-transform: none;
+    font-weight: 600;
+    color: red;
+}

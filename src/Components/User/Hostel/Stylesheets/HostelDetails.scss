@@ -1,0 +1,230 @@
+.HostelDetails-heading{
+    letter-spacing: 0.13rem;
+    font-weight: 700;
+    font-family: "Crimson Text";
+    font-size: 1.8rem;
+}
+.HostelDetails-images-wrapper-row{
+    margin-left: 0rem !important;
+    margin-right: 3rem !important;
+    height: 60vh;
+}
+
+.HostelDetails-content-wrapper-row{
+    margin-left: 3rem !important;
+    margin-right: 0rem !important;
+    margin-top: 5rem !important;
+}
+
+.HostelDetails-line{
+    height: 0.06rem;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: lightgray;
+}
+.HostelDetails-Tablist{
+    padding-inline-start: 0 !important;
+}
+.HostelDetails-Tab{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: "Crimson Text";
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.HostelDetails-sub-container{
+    width: 70%;
+    // margin: auto;
+}
+
+.HostelDetails-type1{
+    border-right: 1.5px solid #ccc;
+}
+
+.react-tabs__tab--selected{
+    border: 1px solid black !important;
+    text-decoration: none !important;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+.HostelDetails-address{
+    letter-spacing: 0.07rem;
+    font-size: 0.9rem;
+    font-family: "Raleway";
+}
+.HostelDetails-property-heading{
+    letter-spacing: 0.13rem;
+    font-size: 1.25rem;
+    font-family: "Crimson Text";
+    font-weight: 600;
+}
+.HostelDetails-property-content{
+    letter-spacing: 0.07rem;
+    font-size: 0.9rem;
+    font-family: "Raleway";
+    // width: 37rem;
+}
+.HostelDetails-Summary-container{
+    width: 70%;
+    border: 1px solid #707070;
+}
+
+.HostelDetails-Summary-heading-container{
+    background-color: #2D2D2D;
+}
+
+.HostelDetails-Summary-heading{
+    letter-spacing: 0.12rem;
+    font-size: 1.5rem;
+    font-family: "Crimson Text";
+}
+.HostelDetails-Offers-heading{
+    font-weight: 700;
+    font-family: "Crimson Text";
+    font-size: 1.2rem;
+    letter-spacing: 0.07rem;
+}
+.HostelDetails-Offers-container{
+    border-bottom: 1px solid #707070;
+}
+.HostelDetails-Offers{
+    display: flex;
+    flex-direction: row;
+}
+.HostelDetails-Offers-subheading{
+    justify-content: center;
+    align-items: flex-end;
+    flex:1;
+    font-weight: 600;
+    font-family: "Raleway";
+    font-size: 0.9rem;
+    
+    // font-family: "Crimson Text";
+}
+.HostelDetails-Offers-info{
+    flex: 5;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Raleway";
+    font-size: 0.9rem;
+    letter-spacing: 1.13px;
+
+}
+.HostelDetails-btn-noBG{
+    letter-spacing: 0.06rem;
+    font-size: 0.8125rem;
+    font-family: "Crimson Text";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.HostelDetails-Offers-sub-container-info1{
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.07rem;
+    font-family: "Raleway";
+}
+.HostelDetails-btn-BG{
+    background-color: #2D2D2D;
+    // text-decoration:underline;
+    // font-weight: 600;
+    letter-spacing: 0.07rem;
+    font-family: "Crimson Text";
+    font-size: 0.9rem;
+    // width: 10rem;
+    cursor: pointer;
+}
+// .HostelDetails-Main{
+//     margin-top: 3rem;
+//     margin-left: 3rem;
+// }
+.HostelDetails-Offers-content-container{
+    border: 1px solid black;
+}
+
+.hostel-details__container {
+    // background-color: indigo;
+    height: 85vh;
+    padding: 1rem;
+}
+
+.hostel-details__container-left {
+    // background-color: green;
+    width: 60%;
+    // display: inline-block;
+    float: left;
+    margin-left: 1%;
+
+    img {
+        // height: 100%;
+        // height: 20rem;
+        width: 100%;
+    }
+}
+
+.hostel-details__container-right {
+    // background-color: goldenrod;
+    width: 35%;
+    height: 100%;
+    margin-left: 3%;
+    display: inline-block;
+
+    &__top {
+        height: 45.5%;
+        // background-color: lawngreen;
+        margin-bottom: 2%;
+        img {
+            height: 100%;
+        }
+    }
+
+    &__bottom {
+        // background-color: pink;
+        height: 47.5%;
+
+        img {
+            height: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .HostelDetails-Main{
+        margin: 0rem !important;
+    }
+    .HostelDetails-Main1{
+        margin-left: 1rem !important;
+    }
+    .HostelDetails-images-wrapper-row{
+        padding: 0rem !important;
+    }
+    .HostelDetails-content-wrapper-row{
+        margin-left: 1rem !important;
+    }
+    .HostelDetails-BigPic{
+        height: 40vh !important;
+    }
+    .HostelDetails-SmallPic2{
+        height: 19vh !important;
+        // margin-top: 1rem;
+    }
+    .HostelDetails-SmallPic{
+        height: 19vh !important;
+        width: 15rem !important;
+    }
+    .HostelDetails-Offers-content-container{
+        width: 100% !important;
+    }
+    .HostelDetails-Summary-container{
+        width: 100%;
+    }
+}

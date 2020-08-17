@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/betahouse.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="Beta House" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neuton:400,700&display=swap" rel="stylesheet">
+
+   <!-- MAPBOX CDN -->
+   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css' rel='stylesheet' />
+  <!--  FONT AWESOME CDN  -->
+  <script src="https://kit.fontawesome.com/75d25ca43b.js" crossorigin="anonymous"></script>
+
+  <!-- JQUERY CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- PRICE RANGE -->
+
+  <!-- <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.2/css/themes/default/jquery.mobile-1.4.2.min.css">
+  </link>
+  <script src="https://demos.jquerymobile.com/1.4.2/js/jquery.js"></script>
+
+  <script src="https://demos.jquerymobile.com/1.4.2/js/jquery.mobile-1.4.2.min.js"></script> -->
+  <!-- PRICE RANGE -->
+  <title>Beta House</title>
+  <script>
+    window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function () { }
+  </script>
+  <link rel="icon" type="image/png" sizes="32x32" href="../src/Assets/Asset 1.png" />
+  <script>
+    if (window.location.pathname.includes("merchant") || window.location.pathname.includes('admin')) {
+      console.log('Here')
+    }
+    else {
+      function initFreshChat() {
+        window.fcWidget.init({
+          token: "c8b3e44f-3c97-4a03-a20d-6fccd5049ac2",
+          host: "https://wchat.in.freshchat.com"
+        });
+      }
+      function initialize(i, t) { var e; i.getElementById(t) ? initFreshChat() : ((e = i.createElement("script")).id = t, e.async = !0, e.src = "https://wchat.in.freshchat.com/js/widget.js", e.onload = initFreshChat, i.head.appendChild(e)) } function initiateCall() { initialize(document, "freshchat-js-sdk") } window.addEventListener ? window.addEventListener("load", initiateCall, !1) : window.attachEvent("load", initiateCall, !1);
+    }
+  </script>
+
+
+
+</head>
+
+<body style="margin: 0; padding: 0; box-sizing: border-box;">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+</body>
+
+</html>
